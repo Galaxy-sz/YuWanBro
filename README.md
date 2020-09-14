@@ -4,3 +4,7 @@
 零矩阵：使用第一行第一列做标记，完成原数组上操作。因为作为标记的行列在遍历中要保持只读，所以最后要单独考虑一次第一行和第一列是否需要清零。
 - [0503.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/cxymsjd/0503.cpp)
 翻转数位：把连续的1分成块，比较相邻两块数目之和的最大值。注意全1时的边界情况。
+- [1715.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/cxymsjd/1715.cpp)
+最长单词：哈希递归法：使用哈希表存单词信息，递归地查找每个单词是不是可以分解成哈希表里的组合（注意要先在哈希中除去自身）。
+- [1715_2.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/cxymsjd/1715_2.cpp)
+最长单词：字典树法：构建字典树，使用dfs思想在字典树上查找（很难写出来正确的dfs字典树代码）。
