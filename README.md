@@ -16,3 +16,5 @@
 list1[0] + merge(list1[1:],list2) list1[0]<list2[0]
 list2[0] + merge(list1,list2[1:]) otherwise
 ```
+- [344.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/MainProblemLibrary/344.cpp)
+反转字符串：使用递归没有降低交换的时间复杂度，反而浪费了更多的栈空间，很傻逼。直接撒谎指针迭代完事。
