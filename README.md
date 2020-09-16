@@ -8,3 +8,11 @@
 最长单词：哈希递归法：使用哈希表存单词信息，递归地查找每个单词是不是可以分解成哈希表里的组合（注意要先在哈希中除去自身）。
 - [1715_2.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/cxymsjd/1715_2.cpp)
 最长单词：字典树法：构建字典树，使用dfs思想在字典树上查找（很难写出来正确的dfs字典树代码）。
+
+## Main Problem Library
+- [21.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/MainProblemLibrary/1715_2.cpp)
+合并两个有序链表：双指针迭代法简单，不赘述。递归法使用以下递推公式即可。
+```$xslt
+list1[0] + merge(list1[1:],list2) list1[0]<list2[0]
+list2[0] + merge(list1,list2[1:]) otherwise
+```
