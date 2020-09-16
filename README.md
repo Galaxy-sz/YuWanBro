@@ -8,6 +8,17 @@
 最长单词：哈希递归法：使用哈希表存单词信息，递归地查找每个单词是不是可以分解成哈希表里的组合（注意要先在哈希中除去自身）。
 - [1715_2.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/cxymsjd/1715_2.cpp)
 最长单词：字典树法：构建字典树，使用dfs思想在字典树上查找（很难写出来正确的dfs字典树代码）。
+- [0806.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/cxymsjd/0806.cpp)
+汉诺塔问题：经典递归问题。
+![汉诺塔题解](https://pic.leetcode-cn.com/3bffd1a1faf4323a92b659e37d7e2cd6c79fe074602b2977f4a7931fe82bbb13-08061.gif)
+```$xslt
+n = 1 时，
+    直接把盘子从 A 移到 C；
+n > 1 时，
+    先把上面 n - 1 个盘子从 A 移到 B（子问题，递归）；
+    再将最大的盘子从 A 移到 C；
+    再将 B 上 n - 1 个盘子从 B 移到 C（子问题，递归）。
+```
 
 ## Main Problem Library
 - [21.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/MainProblemLibrary/1715_2.cpp)
