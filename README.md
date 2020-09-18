@@ -35,3 +35,6 @@ list2[0] + merge(list1,list2[1:]) otherwise
 ## 剑指offer
 - [03.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/03.cpp)
 数组中重复的数字：题目中提示长度为n的数组中存放的都是小于等于n-1的数字，所以遍历一遍数组，遇到数字i就将其和下标为i位置的数字交换，如果交换之前发现下标为i处的数字已经是i，那么此数字就是第一个重复的数字。
+- [04.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/04.cpp)
+二位数组中查找：将排序二维数组看成二叉查找树，注意下标的增减就可以对应子树的查询。
+![矩阵转化为二叉树](https://pic.leetcode-cn.com/6584ea93812d27112043d203ea90e4b0950117d45e0452d0c630fcb247fbc4af-Picture1.png)
