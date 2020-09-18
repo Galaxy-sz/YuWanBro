@@ -19,6 +19,8 @@ n > 1 时，
     再将最大的盘子从 A 移到 C；
     再将 B 上 n - 1 个盘子从 B 移到 C（子问题，递归）。
 ```
+- [1701.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/cxymsjd/1701.cpp)
+不用加号的加法：组成原理问题，不考虑进位的加法即是“异或”运算，一次异或运算产生的进位实际就是两个加数“与”运算的结果再右移一位，将产生的进位作为新的加数不断迭代地与上一轮的结果异或直到有一次运算不产生进位为止。需要注意的是，因为有符号数的移位运算涉及溢出问题，所有移位运算前尽量先转化为无符号数。
 
 ## Main Problem Library
 - [21.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/MainProblemLibrary/1715_2.cpp)
@@ -29,3 +31,7 @@ list2[0] + merge(list1,list2[1:]) otherwise
 ```
 - [344.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/MainProblemLibrary/344.cpp)
 反转字符串：使用递归没有降低交换的时间复杂度，反而浪费了更多的栈空间，很傻逼。直接撒谎指针迭代完事。
+
+## 剑指offer
+- [03.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/03.cpp)
+数组中重复的数字：题目中提示长度为n的数组中存放的都是小于等于n-1的数字，所以遍历一遍数组，遇到数字i就将其和下标为i位置的数字交换，如果交换之前发现下标为i处的数字已经是i，那么此数字就是第一个重复的数字。
