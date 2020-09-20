@@ -38,3 +38,9 @@ list2[0] + merge(list1,list2[1:]) otherwise
 - [04.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/04.cpp)
 二位数组中查找：将排序二维数组看成二叉查找树，注意下标的增减就可以对应子树的查询。
 ![矩阵转化为二叉树](https://pic.leetcode-cn.com/6584ea93812d27112043d203ea90e4b0950117d45e0452d0c630fcb247fbc4af-Picture1.png)
+- [05.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/05.cpp)
+替换空格：在原字符串上做修改，使用双指针（分别在原字符串结束位置和新字符串结束位置）从后向前遍历，两个指针在还存在空格时不可能相遇，相遇时已经替换完毕。
+- [06.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/06.cpp)
+从尾到头打印链表：递归的方法，虽然没有提升空间或时间里用率，但是对递归的理解还要继续体会。（乌拉乌拉乌拉）
+- [07.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/07.cpp)
+重建二叉树：递归方法，倒数第二次提交超时，原因是没有使用数学计算的方法找左右子树根节点的位置。
