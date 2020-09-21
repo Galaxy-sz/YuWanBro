@@ -48,3 +48,5 @@ list2[0] + merge(list1,list2[1:]) otherwise
 从尾到头打印链表：递归的方法，虽然没有提升空间或时间里用率，但是对递归的理解还要继续体会。（乌拉乌拉乌拉）
 - [07.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/07.cpp)
 重建二叉树：递归方法，倒数第二次提交超时，原因是没有使用数学计算的方法找左右子树根节点的位置。
+- [10-1.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/10-1.cpp)
+斐波那契数列：谁递归谁傻逼，引入冗余计算，直接顺序求接就完事了。
