@@ -31,6 +31,8 @@ list2[0] + merge(list1,list2[1:]) otherwise
 ```
 - [344.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/MainProblemLibrary/344.cpp)
 反转字符串：使用递归没有降低交换的时间复杂度，反而浪费了更多的栈空间，很傻逼。直接撒谎指针迭代完事。
+- [104.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/MainProblemLibrary/104.cpp)
+二叉树的最大深度：DFS非常适合递归写法。非并行的BFS算法实际上就是层序遍历（使用队列实现）。
 
 ## 剑指offer
 - [03.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/03.cpp)
