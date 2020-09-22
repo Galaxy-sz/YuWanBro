@@ -50,3 +50,5 @@ list2[0] + merge(list1,list2[1:]) otherwise
 重建二叉树：递归方法，倒数第二次提交超时，原因是没有使用数学计算的方法找左右子树根节点的位置。
 - [10-1.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/10-1.cpp)
 斐波那契数列：谁递归谁傻逼，引入冗余计算，直接顺序求接就完事了。
+- [10-2.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/10-2.cpp)
+青蛙跳台阶问题：谁递归谁傻逼，最简单的dp问题，了解一下。
