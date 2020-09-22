@@ -52,3 +52,5 @@ list2[0] + merge(list1,list2[1:]) otherwise
 斐波那契数列：谁递归谁傻逼，引入冗余计算，直接顺序求接就完事了。
 - [10-2.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/10-2.cpp)
 青蛙跳台阶问题：谁递归谁傻逼，最简单的dp问题，了解一下。
+- [11.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/11.cpp)
+旋转数组中的最小数字：二分查找，根据要查找数组的特性，只能用中间值比较最右边值，分类讨论解的范围，最后的终止条件到左右边界差1就可以直接判断了。
