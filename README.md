@@ -53,14 +53,11 @@ list2[0] + merge(list1,list2[1:]) otherwise
 ![用两个栈实现队列](https://assets.leetcode-cn.com/solution-static/jianzhi_09/jianzhi_9.gif)
 - [10-1.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/10-1.cpp)
 斐波那契数列：谁递归谁傻逼，引入冗余计算，直接顺序求接就完事了。
-<<<<<<< HEAD
 - [10-2.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/10-2.cpp)
 青蛙跳台阶问题：谁递归谁傻逼，最简单的dp问题，了解一下。
 - [11.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/11.cpp)
 旋转数组中的最小数字：二分查找，根据要查找数组的特性，只能用中间值比较最右边值，分类讨论解的范围，最后的终止条件到左右边界差1就可以直接判断了。
-=======
 - [12.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/12.cpp)
 矩阵中的路径：使用dfs的经典问题，dfs想递归，注意反向判断的方法和每一轮往下递归之前先把该轮判断位置的元素置“\0”，这轮迭代失败再改回来，以防止重复寻路的情况。说了那么多，干脆强行记下来算了。
 - [13.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/12.cpp)
 机器人运动范围：和“矩阵中的路径”问题一样，使用dfs的典型，注意递归函数中判断的返回的条件要包括这个点已经访问，否则会出现无限递归。
->>>>>>> d51a69335b180c09930cafa378d665a0b7243074
