@@ -51,5 +51,7 @@ list2[0] + merge(list1,list2[1:]) otherwise
 - [09.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/09.cpp)
 用两个栈实现队列：这张图的思路应该无敌了。
 ![用两个栈实现队列](https://assets.leetcode-cn.com/solution-static/jianzhi_09/jianzhi_9.gif)
+- [10-1.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/10-1.cpp)
+斐波那契数列：谁递归谁傻逼，引入冗余计算，直接顺序求接就完事了。
 - [12.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/12.cpp)
 矩阵中的路径：使用dfs的经典问题，dfs想递归，注意反向判断的方法和每一轮往下递归之前先把该轮判断位置的元素置“\0”，这轮迭代失败再改回来，以防止重复寻路的情况。说了那么多，干脆强行记下来算了。
