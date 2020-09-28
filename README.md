@@ -59,5 +59,16 @@ list2[0] + merge(list1,list2[1:]) otherwise
 旋转数组中的最小数字：二分查找，根据要查找数组的特性，只能用中间值比较最右边值，分类讨论解的范围，最后的终止条件到左右边界差1就可以直接判断了。
 - [12.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/12.cpp)
 矩阵中的路径：使用dfs的经典问题，dfs想递归，注意反向判断的方法和每一轮往下递归之前先把该轮判断位置的元素置“\0”，这轮迭代失败再改回来，以防止重复寻路的情况。说了那么多，干脆强行记下来算了。
-- [13.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/12.cpp)
+- [13.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/13.cpp)
 机器人运动范围：和“矩阵中的路径”问题一样，使用dfs的典型，注意递归函数中判断的返回的条件要包括这个点已经访问，否则会出现无限递归。
+- [14-1.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/14-1.cpp)
+剪绳子：典型的动态规划问题，动态规划的转移方程为
+```
+当 i≥2 时，假设对正整数 i 拆分出的第一个正整数是 j（1≤j<i），则有以下两种方案：
+    将 i 拆分成 j 和 i−j 的和，且 i−j 不再拆分成多个正整数，此时的乘积是 j×(i−j)；
+    将 i 拆分成 j 和 i−j 的和，且 i−j 继续拆分成多个正整数，此时的乘积是 j×dp[i−j]。
+因此，当 j 固定时，有 
+    dp[i]=max(j×(i−j),j×dp[i−j])
+需要遍历所有的 j 得到 dp[i] 的最大值，故：
+    dp[i]=max(dp[i],j×(i−j),j×dp[i−j])
+```
