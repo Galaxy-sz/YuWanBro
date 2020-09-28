@@ -72,3 +72,5 @@ list2[0] + merge(list1,list2[1:]) otherwise
 需要遍历所有的 j 得到 dp[i] 的最大值，故：
     dp[i]=max(dp[i],j×(i−j),j×dp[i−j])
 ```
+- [14-2.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/14-2.cpp)
+剪绳子2：很没有意义的一题，用dp会带来大数问题（虽然也可及解决），所以这题就硬贪心，结果就是尽量多地剪出长度为3的段，剩下的长度不是3再分类讨论，直接粗暴。
