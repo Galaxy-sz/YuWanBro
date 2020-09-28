@@ -35,6 +35,8 @@ list2[0] + merge(list1,list2[1:]) otherwise
 二叉树的最大深度：DFS非常适合递归写法。非并行的BFS算法实际上就是层序遍历（使用队列实现）。
 - [24.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/MainProblemLibrary/24.cpp)
 两两交换链表中的节点：链表操作，递归+指针画图法进行分析，注意要把没用的指针赋成NULL。
+- [231.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/MainProblemLibrary/231.cpp)
+2的幂：巧用巧用n&(n-1)操作，该操作的原理是得到一个把n的最低位的1置成0的新数。类似的题见[15.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/15.cpp)。
 
 ## 剑指offer
 - [03.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/03.cpp)
@@ -74,3 +76,5 @@ list2[0] + merge(list1,list2[1:]) otherwise
 ```
 - [14-2.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/14-2.cpp)
 剪绳子2：很没有意义的一题，用dp会带来大数问题（虽然也可及解决），所以这题就硬贪心，结果就是尽量多地剪出长度为3的段，剩下的长度不是3再分类讨论，直接粗暴。
+- [15.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/15.cpp)
+二进制中1的个数：巧用n&(n-1)操作，该操作的原理是得到一个把n的最低位的1置成0的新数。类似的题见[231.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/MainProblemLibrary/231.cpp)。
