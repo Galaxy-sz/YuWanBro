@@ -79,4 +79,4 @@ list2[0] + merge(list1,list2[1:]) otherwise
 - [15.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/15.cpp)
 二进制中1的个数：巧用n&(n-1)操作，该操作的原理是得到一个把n的最低位的1置成0的新数。类似的题见[231.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/MainProblemLibrary/231.cpp)。
 - [16.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/jzoffer/16.cpp)
-数值的整数次方：二分幂法递归的经典例题，根据n为奇偶得出两种情况下的递推关系式，注意凡是涉及取相反数运算的都要把数据类型扩大，因为int的负数取相反数可能会溢出（C++的问题还是人的问题？）！
+数值的整数次方：别理解错了，这题不是考小数怎么取幂！！二分幂法递归的经典例题，根据n为奇偶得出两种情况下的递推关系式，注意凡是涉及取相反数运算的都要把数据类型扩大，因为int的负数取相反数可能会溢出（C++的问题还是人的问题？）！
