@@ -23,7 +23,7 @@ n > 1 时，
 不用加号的加法：组成原理问题，不考虑进位的加法即是“异或”运算，一次异或运算产生的进位实际就是两个加数“与”运算的结果再右移一位，将产生的进位作为新的加数不断迭代地与上一轮的结果异或直到有一次运算不产生进位为止。需要注意的是，因为有符号数的移位运算涉及溢出问题，所有移位运算前尽量先转化为无符号数。
 
 ## Main Problem Library
-- [21.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/MainProblemLibrary/1715_2.cpp)
+- [21.cpp](https://github.com/Galaxy-sz/YuWanBro/blob/yxy/MainProblemLibrary/21.cpp)
 合并两个有序链表：双指针迭代法简单，不赘述。递归法使用以下递推公式即可。
 ```$xslt
 list1[0] + merge(list1[1:],list2) list1[0]<list2[0]
